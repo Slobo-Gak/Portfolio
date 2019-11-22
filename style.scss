@@ -351,21 +351,26 @@ footer {
         color: $white;
     }
 }
-
+/***************
+CSS ANIMATION
+***************/
 @keyframes footer {
     100% {
         transform: rotate(360deg);
     }
 
 }
+/***************
+MEDIA QUERY
+***************/
 
-@media(max-width:768px, max-width:600px) {
+@media(max-width:768px) {
     #banner {
         display: flex;
         height: 100vh;
 
         .banner-title {
-            font-size: 5rem;
+            font-size: 3rem;
         }
 
     }
