@@ -358,3 +358,15 @@ footer {
     }
 
 }
+
+@media(max-width:768px) {
+    #banner {
+        display: flex;
+        height: 100vh;
+
+        .banner-title {
+            font-size: 5rem;
+        }
+
+    }
+}

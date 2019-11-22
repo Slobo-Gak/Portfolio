@@ -237,5 +237,11 @@ footer {
 @keyframes footer {
   100% {
     transform: rotate(360deg); } }
+@media (max-width: 768px) {
+  #banner {
+    display: flex;
+    height: 100vh; }
+    #banner .banner-title {
+      font-size: 5rem; } }
 
 /*# sourceMappingURL=style.css.map */
