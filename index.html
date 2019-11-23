@@ -17,33 +17,34 @@
 <body>
     <!-- nav -->
     <div class="navbar navbar-expand-md fixed-top">
-        <a href="" class="navbar-brand">
+        <a class="navbar-brand" href="#">
             <h3>Portfolio</h3>
         </a>
         <!-- toggler icon -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- navbar icons -->
-        <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+        <!-- navbar icon -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#banner" class="nav-link">Home</a>
+                    <a class="nav-link" href="#banner">Home</a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#technology" class="nav-link">Technology</a>
+                    <a class="nav-link" href="#technology">Technology</a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#newsletter" class="nav-link">Newsletter</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a class="nav-link" href="#interests">Interests</a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#interests" class="nav-link">Interes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#footer" class="nav-link">Contact</a>
+                    <a class="nav-link" href="#footer">Contact</a>
                 </li>
             </ul>
         </div>
@@ -81,7 +82,7 @@
             </div>
             <!-- technology row -->
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-10 mx-auto html text-center mb-5">
+                <div class="col-lg-3 col-md-6 col-10 mx-auto html text-center mb-5 ">
                     <i class="fab fa-html5 technology-icon technology-icon-1"></i>
                     <h3 class="my-4">HTML5</h3>
                     <p class="text-muted">HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it.</p>
@@ -96,7 +97,7 @@
                     <h3 class="my-4">JavaScript</h3>
                     <p class="text-muted"> JavaScript enables interactive web pages and is an essential part of web applications.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-10 sass mx-auto text-center mb-5">
+                <div class="col-lg-3 col-md-6 col-10 sass mx-auto text-center mb-5 overflow-hidden">
                     <i class="fab fa-sass technology-icon technology-icon-4"></i>
                     <h3 class="my-4">Sass</h3>
                     <p class="text-muted">Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS).</p>
@@ -336,7 +337,7 @@
                         <h4>Cooking</h4>
                     </div>
                     <div class="small-title-underline"></div>
-                    <div class="card-text">I love eating good food but not just eating but also cooking.</div>
+                    <div class="card-text">I love eating good food, not just eating but also cooking.</div>
                 </div>
             </div>
 
@@ -350,7 +351,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <a href="https://web.facebook.com/sloobo.gak"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/slobodan-gak-%C4%87avar-2a7286160/"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/__slobicaa__/?hl=sr"><i class="fab fa-instagram"></i></a>
                 <a href="https://github.com/Slobo-Gak"><i class="fab fa-github-square"></i></a>
                 <h3>&copy;Sloba 2019.</h3>
@@ -367,32 +368,36 @@
             duration: 2000,
             origin: 'left',
             distance: '500px',
+            mobile:true,
         });
-        
+
         window.sr = ScrollReveal();
         sr.reveal('.sass', {
             delay: 1,
             duration: 2000,
             origin: 'right',
             distance: '500px',
+            mobile:true,
         });
-        
+
         window.sr = ScrollReveal();
         sr.reveal('.bootstrap', {
             delay: 1,
             duration: 2000,
             origin: 'left',
             distance: '500px',
+            mobile:true,
         });
-        
+
         window.sr = ScrollReveal();
         sr.reveal('.gulp', {
             delay: 1,
             duration: 2000,
             origin: 'right',
             distance: '500px',
+            mobile:true,
         });
-        
+
         $('.navbar-toggler').css('background', 'white');
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

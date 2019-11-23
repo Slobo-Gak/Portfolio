@@ -2,7 +2,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: var(--white);
-  margin-top: 75px; }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 70; }
 
 h1,
 h2,
@@ -85,7 +88,8 @@ BANNER
     transform: scale(1.1); }
 
 #technology {
-  margin-top: 130px; }
+  margin-top: 130px;
+  overflow: hidden; }
   #technology h1 {
     color: #ff8a5b; }
   #technology .technology-icon {
@@ -245,9 +249,19 @@ MEDIA QUERY
 ***************/
 @media (max-width: 768px) {
   #banner {
-    display: flex;
     height: 100vh; }
     #banner .banner-title {
-      font-size: 3rem; } }
+      font-size: 3rem; }
+    #banner .banner-link {
+      font-size: 1.2rem; }
+
+  .form-btn {
+    margin-bottom: 50px; }
+
+  .text-uppercase {
+    font-size: 3rem; }
+
+  input[type="text"] {
+    padding-bottom: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

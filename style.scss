@@ -29,7 +29,10 @@ $black: #000;
 body {
     font-family: 'Roboto', sans-serif;
     background: var(--white);
-    margin-top: 75px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 70;
 }
 
 h1,
@@ -135,6 +138,7 @@ BANNER
 
 #technology {
     margin-top: 130px;
+    overflow: hidden;
 
     h1 {
         color: $orange;
@@ -351,6 +355,7 @@ footer {
         color: $white;
     }
 }
+
 /***************
 CSS ANIMATION
 ***************/
@@ -360,18 +365,32 @@ CSS ANIMATION
     }
 
 }
+
 /***************
 MEDIA QUERY
 ***************/
 
 @media(max-width:768px) {
     #banner {
-        display: flex;
         height: 100vh;
 
         .banner-title {
             font-size: 3rem;
         }
+        .banner-link{
+            font-size: 1.2rem;
+        }
 
     }
+    .form-btn{
+        margin-bottom: 50px;
+    }
+    .text-uppercase{
+        font-size: 3rem;
+    }
+    
+    input[type="text"]{
+        padding-bottom: 40px;
+    }
+
 }
