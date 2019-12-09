@@ -72,6 +72,10 @@ NAVBAR
             color: $moka;
             transform: scale(1.1);
         }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;..");
+        }
     }
 }
 
@@ -377,20 +381,43 @@ MEDIA QUERY
         .banner-title {
             font-size: 3rem;
         }
-        .banner-link{
+
+        .banner-link {
             font-size: 1.2rem;
         }
 
     }
-    .form-btn{
+
+    .form-btn {
         margin-bottom: 50px;
     }
-    .text-uppercase{
+
+    .text-uppercase {
         font-size: 3rem;
     }
-    
-    input[type="text"]{
+
+    input[type="text"] {
         padding-bottom: 40px;
     }
+    
+    #newsletter{
+        height: auto;
+    }
 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    #banner{
+        height: auto;
+    }
+    
+    #newsletter{
+        height: auto;
+    }
+    
+    .synx{
+        margin: auto;
+    }
+  
 }

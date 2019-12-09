@@ -38,6 +38,8 @@ NAVBAR
     .navbar .nav-link:hover {
       color: #FCEADE;
       transform: scale(1.1); }
+    .navbar .nav-link .navbar-dark .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;.."); }
 
 /***************
 BANNER
@@ -262,6 +264,18 @@ MEDIA QUERY
     font-size: 3rem; }
 
   input[type="text"] {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+
+  #newsletter {
+    height: auto; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #banner {
+    height: auto; }
+
+  #newsletter {
+    height: auto; }
+
+  .synx {
+    margin: auto; } }
 
 /*# sourceMappingURL=style.css.map */
