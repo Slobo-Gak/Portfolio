@@ -251,7 +251,7 @@ MEDIA QUERY
 ***************/
 @media (max-width: 768px) {
   #banner {
-    height: 100vh; }
+    height: auto; }
     #banner .banner-title {
       font-size: 3rem; }
     #banner .banner-link {
